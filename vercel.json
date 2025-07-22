@@ -1,0 +1,14 @@
+{
+  "buildCommand": "bun run build:frontend",
+  "outputDirectory": "dist/frontend",
+  "framework": "vite",
+  "installCommand": "bun install",
+  "devCommand": "vite dev",
+  "functions": {},
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+} 

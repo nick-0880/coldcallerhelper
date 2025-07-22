@@ -54,6 +54,7 @@
     "start": "elizaos start",
     "dev": "elizaos dev",
     "build": "tsc --noEmit && vite build && tsup",
+    "build:frontend": "vite build",
     "lint": "prettier --write ./src",
     "type-check": "tsc --noEmit",
     "type-check:watch": "tsc --noEmit --watch",
